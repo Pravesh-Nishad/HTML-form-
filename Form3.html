@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="/submit" method="post">
+        <h1>Personal Details</h1>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br><br>
+        <label for="email">Email-id:</label>
+        <input type="text" name="email" id="email">
+        <br><br>
+
+        <label>Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br><br>
+
+        <label for="contact">Contanct:</label>
+        <input type="tel" name="contact" id="contact">
+        <br>
+
+        <h2>Eduacation Qualification</h2>
+        <label>Degree</label>
+
+        <select>
+            <option value="" selected disabled>--Select group--</option>
+            <option value="Engineering">Engineering</option>
+            <option value="Pharmacy">Pharmacy</option>
+            <option value="Accountant">Accountant</option>
+            <option value="Buisness">Buisness</option>
+        </select>
+        <br><br>
+        <label>Engineering</label>
+        <select>
+            <option value="" selected disabled>--Select group--</option>
+            <option value="Computer Science">Computer Science</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            <option value="Bio Engineering">Bio Engineering</option>
+        </select>
+        <br><br>
+        <label>Hobbies:</label>
+
+        <label for="chess">Playing chess</label>
+        <input type="checkbox" name="chess" id="chess">
+
+        <label for="book">Reading book</label>
+        <input type="checkbox" name="book" id="book">
+        <h2>Address</h2>
+        <textarea></textarea rows 10 cols20>
+            <br>
+            <label for="resume">Attch resume</label>
+            <input type="file" name="resume" id="resume">
+           <br><br>
+            <button type="submit">Submit➡️</button>
+    </form>
+</body>
+</html>

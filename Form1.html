@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <h1>University Registration Form</h1>
+        <p>Please fill out the form below to register
+        <p>
+
+            <hr>
+        <h2>Personal Details</h2>
+        <label for="Fname">First Name:</label>
+        <input type="text" placeholder="First name" name="name" id="Fname">
+        <br><br>
+        <label for="Lname">Last Name:</label>
+        <input type="text"placeholder="Last name" name="name" id="Lname">
+        <br><br>
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="DateOfBirth" id="DOB">
+        <br><br>
+        <label>Gender:</label>
+        <br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label>
+        <br>
+        <input type="radio" name="gender" id="Female">
+        <label for="Female">Female</label>
+        <br>
+        <input type="radio" name="gender" id="Othor">
+        <label for="Other">Other</label>
+        <br><br>
+        <label for="File">Upload Your Photo</label>
+        <br>
+        <input type="file" name="Filedata" id="File">
+        <br><br>
+        <hr>
+
+        <h1>Contact Information</h1>
+
+       <label for="email">Email-address:</label>
+       <input type="text" placeholder="you@gmail.com" name="email" id="email">
+       <br><br>
+       <label for="Phone">Phone-number:</label>
+       <input type="text" placeholder="Phone-number" name="Phone" id="Phone">
+       <br><br>
+       <label for="mailing">mailing Address</label>
+       <br>
+       <textarea name="mailing" placeholder="Enter your address" id="mailing" cols="20" rows="5"></textarea>
+
+       <hr>
+       <label for="course">Select Your Course</label>
+       <br>
+       <select name="course" id="course">
+        <option value="B.Tech">B.Tech</option>
+        <option value="BCA">BCA</option>
+        <option value="MCA">MCA</option>
+        <option value="M.Tech">M.Tech</option>
+       </select>
+       <br><br>
+       <h3 >Extracurricular Interest:</h3>
+       <label for="sport">Sport</label>
+       <input type="checkbox" name="interest" id="sport" value="sport">
+       <br>
+       <label for="Music">Music &  Art</label>
+       <input type="checkbox" name="interest" id="Music" value="Music">
+       <br>
+       <label for="Technology">Technology</label>
+       <input type="checkbox" name="interest" id="Technology" value="Technology">
+       <br>
+       <label for="Volunteering">Volunteering</label>
+       <input type="checkbox" name="interest" id="Volunteering" value="Volunteering">
+       <br>
+       <hr>
+       <button type="submit">Register</button>
+       <button type="reset">Clear data</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <form action="/submit" method="post">
+      <h1>Student Registration Form</h1>
+      <p>Fill in this form to register</p>
+      <label for="fname">First Name:</label>
+      <input
+        type="text"
+        placeholder="Enter your first name"name="fname"id="fname"/>
+      <br /><br />
+      <label for="lname">Last Name:</label>
+      <input
+        type="text"
+        placeholder="Enter your last name"
+        name="lname"
+        id="lname"
+      />
+      <br /><br />
+      <label for="email">Email:</label>
+      <input type="text" placeholder="Enter email" name="email" id="email" />
+      <br /><br />
+      <label for="dob">Date of Birth</label>
+      <input
+        type="date"
+        placeholder="Enter your last name"
+        name="dob"
+        id="dob"
+      />
+      <br /><br />
+      <label for="Username">Set Username:</label>
+      <input
+        type="text"
+        placeholder="SetUsername"
+        name="Username"
+        id="Username"
+      />
+      <br /><br />
+      <label for="password">Set Password:</label>
+      <input
+        type="password"
+        placeholder="Set Password"
+        name="password"
+        id="password"
+      />
+      <br /><br />
+      <label>Gender:</label>
+      <br />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="male" value="male" />
+      <br />
+      <label for="fmale">Female</label>
+      <input type="radio" name="gender" id="fmale" value="Female" />
+      <br />
+      <label for="other">Other</label>
+      <input type="radio" name="gender" id="other" value="other" />
+      <br /><br />
+      <label>Course: </label>
+      <select>
+        Course
+        <option value="" disabled selected>----Course---</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="BCA">BCA</option>
+        <option value="MCA">MCA</option>
+      </select>
+      <br /><br />
+      <button type="submit">Register</button>
+    </form>
+  </body>
+</html>
